@@ -2,7 +2,7 @@
   "name": "music-player",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Th3You7/music-player.git",
+  "homepage": "https://github.com/Th3You7/music-player-dev",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.27",
     "@fortawesome/free-solid-svg-icons": "^5.12.1",
@@ -14,6 +14,7 @@
   },
   "devDependencies": {},
   "scripts": {
+    "clean": "gh-pages-clean",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
